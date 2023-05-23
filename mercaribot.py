@@ -13,7 +13,9 @@ def main():
 
 def set_search_conditions(driver):
     #driver.get('https://www.mercari.com/jp/search/?keyword=%E3%82%B9%E3%83%9E%E3%83%9B')
-    driver.get('https://jp.mercari.com/user/profile/374459928?status=on_sale')
+    #driver.get('https://jp.mercari.com/user/profile/374459928?status=on_sale')
+    #driver.get('https://jp.mercari.com/user/profile/890522485')
+    driver.get('https://jp.mercari.com/user/profile/459161940?status=on_sale')
     driver.set_window_size(1024,768)  #(1920, 1080)
 
 def get_item(driver):
